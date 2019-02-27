@@ -24,14 +24,17 @@ p stops
 
 # 7. How many stops there are in the array?
 7
-
-# 8. How many ways can we return `"Falkirk High"` from the array?
-return stops[3]
-stops.delete("Falkirk High")
-stops.delete_at(3)
-
-
-
+#
+# # 8. How many ways can we return `"Falkirk High"` from the array?
+# return stops[3]
+# stops.delete("Falkirk High")
+# stops.delete_at(3)
 
 # 9. Reverse the positions of the stops in the array
+stops.reverse!
+
+
 # 10. Print out all the stops using a for loop
+for station in stops
+  p station
+end
